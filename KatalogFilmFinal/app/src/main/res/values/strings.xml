@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="judul_film">Judul Film</string>
+    <string name="rilis_film">Rilis Film</string>
+    <string name="pemain_film">Pemain :</string>
+    <string name="kreator_film">Kreator :</string>
+    <string name="lorem">lorem ipsum dolor sit amet</string>
+    <string name="object_received">Object Diterima</string>
+
+    <string-array name="data_judul">
+        <item>A Star Is Born</item>
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Bird Box</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumble Bee</item>
+        <item>Creed II</item>
+        <item>Once Upon a Deadpool</item>
+        <item>How To Train The Dragon HW</item>
+        <item>Dragon Ball - The Movie</item>
+    </string-array>
+
+    <string-array name="data_rilis">
+        <item>October 3, 2018</item>
+        <item>December 7, 2018</item>
+        <item>April 25, 2018</item>
+        <item>December 13, 2018</item>
+        <item>October 24, 2018</item>
+        <item>December 15, 2018</item>
+        <item>November 21, 2018</item>
+        <item>December 11, 2018</item>
+        <item>January 3, 2019</item>
+        <item>March 6, 1993</item>
+    </string-array>
+
+    <string-array name="data_pemain">
+        <item>Bradley Cooper</item>
+        <item>Jason Momoa,Amber Heard, Willem Dafoe</item>
+        <item>Robert Downey Jr.,Chris Evans,Scarlett Johansson</item>
+        <item>Sandra Bullock,Trevante Rhodes,John Malkovich</item>
+        <item>Rami Malek,Gwilym Lee,Ben Hardy</item>
+        <item>Hailee Steinfeld,Jorge Lendeborg Jr.,John Cena</item>
+        <item>Michael B. Jordan,Sylvester Stallone,Dolph Lundgren</item>
+        <item>Ryan Reynolds,Fred Savage,Josh Brolin</item>
+        <item>Jay Baruchel,America Ferrera,Cate Blanchett</item>
+        <item>Masako Nozawa,Bin Shimada,Iemasa Kayumi</item>
+    </string-array>
+
+    <string-array name="data_kreator">
+        <item>Bradley Cooper</item>
+        <item>James Wan</item>
+        <item>Joe Russo</item>
+        <item>Susanne Bier</item>
+        <item>Bryan Singer</item>
+        <item>Travis Knight</item>
+        <item>Steven Caple Jr.</item>
+        <item>David Leitch</item>
+        <item>Dean DeBlois</item>
+        <item>Shigeyasu Yamauchi</item>
+    </string-array>
+
+    <string-array name="data_sinopsis">
+        <item>Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.</item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm half-human, half-Atlantean brother and true heir to the throne.</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.</item>
+        <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock n roll band Queen in 1970. Hit songs become instant classics. When Mercurys increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
+        <item>Between personal obligations and training for his next big fight against an opponent with ties to his familys past, Adonis Creed is up against the challenge of his life.</item>
+        <item>A kidnapped Fred Savage is forced to endure Deadpools PG-13 rendition of Deadpool 2 as a Princess Bride-esque story thats full of magic, wonder  zero Fs.</item>
+        <item>As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccups reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</item>
+        <item>As Goku investigates the destruction of the Southern Galaxy, Vegeta is taken to be King of the New Planet Vegeta, and to destroy the Legendary Super Saiyan, Broly.</item>
+    </string-array>
+
+    <array name="data_poster">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+    </array>
+</resources>

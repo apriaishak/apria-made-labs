@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/img_poster"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="false"
+
+        android:layout_toEndOf="@id/img_poster"
+
+        android:layout_toRightOf="@id/img_poster"
+        android:layout_marginStart="26dp"
+
+
+        android:orientation="vertical">
+
+
+
+        <TextView
+
+            android:id="@+id/txt_judul"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="0dp"
+
+            android:textSize="16sp"
+
+            android:textStyle="bold"
+
+            tools:text="@string/judul_film"
+
+            android:text="@string/judul_film"/>
+
+
+
+        <TextView
+
+            android:id="@+id/txt_rilis"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:ellipsize="end"
+
+            android:maxLines="2"
+
+            tools:text="@string/rilis_film"
+
+            android:text="@string/rilis_film"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:ellipsize="end"
+
+            android:maxLines="2"
+
+            tools:text="@string/pemain_film"
+
+            android:text="@string/pemain_film"/>
+
+        <TextView
+
+            android:id="@+id/txt_pemain"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:ellipsize="end"
+
+            android:maxLines="3"
+
+            tools:text="@string/pemain_film"
+
+            android:text="@string/pemain_film"/>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:ellipsize="end"
+
+            android:maxLines="2"
+
+            tools:text="@string/kreator_film"
+
+            android:text="@string/kreator_film"/>
+
+
+        <TextView
+
+            android:id="@+id/txt_kreator"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:ellipsize="end"
+
+            android:maxLines="2"
+
+            tools:text="@string/kreator_film"
+
+            android:text="@string/kreator_film"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_poster"
+        android:layout_marginTop="25dp"
+        android:text="@string/lorem" />
+
+</RelativeLayout>
+
